@@ -44,7 +44,7 @@ namespace Jequiti
             };
             imageForm.Controls.Add(pictureBox);
 
-            Timer closeTimer = new Timer { Interval = 250 }; // Exibe por 0,25s
+            Timer closeTimer = new Timer { Interval = 500 }; // Exibe por 0,5s
             closeTimer.Tick += (sender, e) =>
             {
                 closeTimer.Stop();
